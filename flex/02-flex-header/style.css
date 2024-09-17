@@ -7,13 +7,8 @@
   font-size: 48px;
   font-weight: 900;
   color: tomato;
-  background: white;
   padding: 4px 32px;
-}
-
-ul {
-  /* this removes the dots on the list items*/
-  list-style-type: none;
+  justify-content: center;
 }
 
 a {
@@ -22,4 +17,25 @@ a {
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
+  margin: 1px 32px;
 }
+
+
+ul {
+  /* this removes the dots on the list items*/
+  list-style-type: none;
+  display: flex;
+}
+
+
+.a,
+.header,
+.logo,
+.ul > * {
+  flex: auto;
+  display: flex;
+}
+
+/* AFTER reading the solution, I would add on .header:
+ justify-content: space-between; 
+*/

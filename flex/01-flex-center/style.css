@@ -3,8 +3,13 @@
   border: 4px solid midnightblue;
   width: 400px;
   height: 300px;
+  display: flex;
+  flex: 0 1 auto;
+  align-items: center;
+  justify-content: center;
 }
 
+/* My error was inserting 'flex', 'align-items' and 'justify-content properties inside of the '.box' class, rather than the 'container'.*/
 .box {
   background: palevioletred;
   font-weight: bold;
@@ -13,3 +18,4 @@
   width: 80px;
   height: 80px;
 }
+
